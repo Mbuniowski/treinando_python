@@ -1,0 +1,13 @@
+from tkinter import *
+janela =  Tk()
+janela.title("Empresa")
+janela.iconbitmap('Icon.ico')
+janela['bg']=('#FF69B4')
+janela.geometry('500x400+50+20')
+etiqueta=Label(janela, text='Olá Michelle',cursor='dot')
+etiqueta.pack()
+etiqueta1=Label(janela,height=20,width=80, text='Olá Michelle',cursor='dot')
+etiqueta1.pack()
+etiqueta2=Label(janela,height=10,width=40, fg='green',bg='yellow', text ='Olá mundo',relief="groove")
+etiqueta2.pack()
+janela.mainloop()
