@@ -38,8 +38,8 @@ fonte_text=tkinter.Label(frame,text="Fonte: ")
 fonte_text.pack(side="left")
 
 #Spinbox
-spin_font=tkinter.Spinbox(frame,values=("Arial","Verdana","Vladimir Script","Bradley Hand ITC",
-                                        "Algerian","8514oem","Jokerman","Jokerman"))
+spin_font=tkinter.Spinbox(frame,values=("Arial","Verdana","Vladimir Script","Algerian","8514oem",
+                                        "Jokerman","Jokerman"))
 spin_font.pack(side="left")
 
 #tamanho da fonte

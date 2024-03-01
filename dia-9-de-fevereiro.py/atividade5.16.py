@@ -1,5 +1,7 @@
 #Calculadora de somarfrom tkinter import *
 
+janela =Tk()
+janela.title("Calculadora")
 
 def click1():
     x=entrada1.get()
@@ -10,8 +12,8 @@ def click1():
     else:
         etiqueta['text']="Entre dados válidos"   
 
-janela =  Tk()
-janela.title("Calculadora")
+
+
 janela.iconbitmap('Icon.ico')
 janela['background']=('RoyalBlue')
 etiqueta1=Label(janela, text='Primeiro número:',bg='RoyalBlue')
